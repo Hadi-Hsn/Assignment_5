@@ -1,0 +1,19 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+*.env
+./sentiment_analysis_service/.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
