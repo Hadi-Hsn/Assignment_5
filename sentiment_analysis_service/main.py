@@ -17,6 +17,9 @@ API_URL = os.getenv("OPENAI_API_URL")
 if not API_KEY:
     raise ValueError("API key not found. Please set it in the .env file.")
 
+if not API_URL:
+    raise ValueError("API url not found. Please set it in the .env file.")
+
 # Request model
 class SentimentRequest(BaseModel):
     text: str
